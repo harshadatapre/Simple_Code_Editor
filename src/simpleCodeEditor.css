@@ -1,0 +1,38 @@
+.total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    text-align: center; 
+}
+  
+.nameArea {
+    margin-bottom: 20px;
+}
+  
+.editorName h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center; 
+}
+  
+.editor {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center; 
+}
+  
+.writeCode {
+    min-height: 300px;
+    outline: none;
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    font-family: 'Fira code', 'Fira Mono', monospace;
+    font-size: 12px;
+}
+  
